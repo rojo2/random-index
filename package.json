@@ -1,6 +1,6 @@
 {
   "name": "@rojo2/random-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/random-index.cjs.js",
   "module": "dist/random-index.esm.js",
   "browser": "dist/random-index.udm.js",
@@ -34,11 +34,9 @@
     "url": "git+https://github.com/rojo2/random-index.git"
   },
   "keywords": [
-    "linear",
-    "congruential",
-    "generator",
-    "pseudo",
-    "random"
+    "random",
+    "indices",
+    "index"
   ],
   "bugs": {
     "url": "https://github.com/rojo2/random-index/issues"

@@ -7,7 +7,7 @@ export default [
   {
     input: "src/random-index.js",
     output: [
-      { file: pkg.browser, name: "randomWithin", format: "umd" }
+      { file: pkg.browser, name: "randomIndex", format: "umd" }
     ],
     plugins: [
       resolve(),

@@ -11,6 +11,9 @@ export default function randomIndex(list, random = Math.random) {
   if (!Array.isArray(list)) {
     throw new Error("Invalid list, it must be an Array");
   }
+  if (list.length === 0) {
+    return -1;
+  }
   return Math.round(linear(random(), 0, list.length - 1));
 }
 

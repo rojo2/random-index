@@ -13,4 +13,14 @@ describe("Random Index", () => {
 
   });
 
+  it("should return -1 on empty lists", () => {
+
+    const emptyList = [];
+    for (let i = 0; i < 100; i++) {
+      expect(randomIndex(emptyList))
+        .to.be.equal(-1);
+    }
+
+  });
+
 });
